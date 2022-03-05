@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646373759081' stop='1646373801867'>
+    <name>Divisional Jobs Test</name>
+    <title>Divisional Jobs Test</title>
+    <test-cases>
+        <test-case start='1646373759081' status='broken' stop='1646373801866'>
+            <name>Rangpur Jobs</name>
+            <title>Rangpur Jobs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.109'/>
+            </parameters>
+            <steps>
+                <step start='1646373759084' status='passed' stop='1646373791169'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='bd7f9059-a386-486c-8381-342507dd31cd-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646373791169' status='passed' stop='1646373791472'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='8be9ec6c-91d0-4de1-a8fd-3df8c975ebcb-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646373801475' status='passed' stop='1646373801865'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7d0eb4cb-7ac0-4594-a349-e53c1e1971c1-attachment.png' type='image/png' size='522164'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at FunctionPage.clickrangpurlocator (/Users/pc/Desktop/WDIO/test/pageobjects/fuctionPage.js:57:35)
+                    at Context.&lt;anonymous> (/Users/pc/Desktop/WDIO/test/specs/DivisionalJob/rangpurjobsTest.js:10:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

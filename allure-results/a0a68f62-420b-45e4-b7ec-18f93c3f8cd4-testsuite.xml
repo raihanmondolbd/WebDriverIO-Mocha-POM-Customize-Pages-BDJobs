@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646373759068' stop='1646373793742'>
+    <name>Divisional Jobs Test</name>
+    <title>Divisional Jobs Test</title>
+    <test-cases>
+        <test-case start='1646373759071' status='broken' stop='1646373793738'>
+            <name>Barishal Jobs</name>
+            <title>Barishal Jobs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.109'/>
+            </parameters>
+            <steps>
+                <step start='1646373759079' status='passed' stop='1646373781657'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5cbad29c-db01-43a7-acd8-3c28368e8792-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646373781657' status='passed' stop='1646373782930'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='2e321949-032e-41a9-9a92-ca8b6b12b905-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646373792932' status='passed' stop='1646373793735'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='78f10007-a93a-427a-8099-c5178ba6958f-attachment.png' type='image/png' size='373046'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at FunctionPage.clickbarishallocator (/Users/pc/Desktop/WDIO/test/pageobjects/fuctionPage.js:54:36)
+                    at Context.&lt;anonymous> (/Users/pc/Desktop/WDIO/test/specs/DivisionalJob/barishaljobsTest.js:10:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

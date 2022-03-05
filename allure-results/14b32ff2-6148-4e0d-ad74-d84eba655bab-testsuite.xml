@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646375636602' stop='1646375636865'>
+    <name>Divisional Jobs Test</name>
+    <title>Divisional Jobs Test</title>
+    <test-cases>
+        <test-case start='1646375636606' status='broken' stop='1646375636861'>
+            <name>Rangpur Jobs</name>
+            <title>Rangpur Jobs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.109'/>
+            </parameters>
+            <steps>
+                <step start='1646375636617' status='passed' stop='1646375636860'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='41d99d24-f889-4d30-b3f7-55f59994b61b-attachment.png' type='image/png' size='6100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>(intermediate value).open is not a function</message>
+                <stack-trace>TypeError: (intermediate value).open is not a function
+                    at FunctionPage.open (/Users/pc/Desktop/WDIO/test/pageobjects/fuctionPage.js:175:22)
+                    at Context.&lt;anonymous> (/Users/pc/Desktop/WDIO/test/specs/DivisionalJob/rangpurjobsTest.js:7:28)
+                    at Context.executeAsync (/Users/pc/Desktop/WDIO/node_modules/@wdio/utils/build/shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (/Users/pc/Desktop/WDIO/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646301864548' stop='1646302464597'>
+    <name>Main Nav Bar Test</name>
+    <title>Main Nav Bar Test</title>
+    <test-cases>
+        <test-case start='1646301864549' status='broken' stop='1646302464594'>
+            <name>main nav Bar</name>
+            <title>main nav Bar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.109'/>
+            </parameters>
+            <steps>
+                <step start='1646301864556' status='passed' stop='1646301873643'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='15b20c4b-85b1-4ff5-82a1-62a47a8e94a3-attachment.json' type='application/json' size='47'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646301873643' status='passed' stop='1646301873819'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='19f76635-450d-41f8-9614-148a82c47df4-attachment.json' type='application/json' size='57'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646301883822' status='passed' stop='1646301883841'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b5398152-67d8-4a13-9b7f-998664576fbf-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='843a25f7-6dd4-49b8-92c5-57a5cd2b1fbb-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646301883847' status='passed' stop='1646301883970'>
+                    <name>POST /session/:sessionId/element/221a35a2-b217-40a4-a910-87ad2a7998aa/click</name>
+                    <title>POST /session/:sessionId/element/221a35a2-b217-40a4-a910-87ad2a7998aa/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646301893979' status='passed' stop='1646301894232'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d8a2fab5-db31-4cba-b092-c9e41f810e4a-attachment.json' type='application/json' size='92'/>
+                        <attachment title='Response' source='e56fba23-e08c-4065-bc86-1e2a3a509774-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646301894235' status='passed' stop='1646301894556'>
+                    <name>POST /session/:sessionId/element/e587baa1-a192-43d7-86f0-1d9beb50062a/click</name>
+                    <title>POST /session/:sessionId/element/e587baa1-a192-43d7-86f0-1d9beb50062a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646301904558' status='broken' stop='1646302464594'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e09cda29-71db-4cd6-a516-8dbee431a5df-attachment.json' type='application/json' size='78'/>
+                    </attachments>
+                    <steps>
+                        <step start='1646302384678' status='broken' stop='1646302464594'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 600000ms exceeded. The execution in the test "Main Nav Bar Test main nav Bar" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/pc/Desktop/WDIO/test/specs/MainNavBar/mainnavbarTest.js)</message>
+                <stack-trace>Error: Timeout of 600000ms exceeded. The execution in the test "Main Nav Bar Test main nav Bar" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/pc/Desktop/WDIO/test/specs/MainNavBar/mainnavbarTest.js)
+                    at createTimeoutError (/Users/pc/Desktop/WDIO/node_modules/mocha/lib/errors.js:498:15)
+                    at Test.Runnable._timeoutError (/Users/pc/Desktop/WDIO/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/pc/Desktop/WDIO/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:557:17)
+                    at processTimers (node:internal/timers:500:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
